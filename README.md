@@ -17,7 +17,7 @@ ___
 
 ### Installation
 
-Used Python, Pandas library, and SQL language.
+Used Python, Pandas library, and SQL languages.
 * Installed VS Code and pgAdmin4.
 * Imported pandas, NumPy, json, and re (regex module) dependencies.
 
