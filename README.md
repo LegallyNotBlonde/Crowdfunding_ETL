@@ -28,10 +28,13 @@ ___
 * Example 1 (comprehension method)
 
 --- Use a list comprehension to add "cat" to each category_id. 
+
 cat_ids = [f'cat{cat_id}' for cat_id in category_ids]
---- Use a list comprehension to add "subcat" to each subcategory_id.    
+
+--- Use a list comprehension to add "subcat" to each subcategory_id.
 scat_ids = [f'subcat{subcat_id}' for subcat_id in subcategory_ids]
-#Displaying results    
+
+--- Displaying results    
 print(cat_ids)
 print(scat_ids)
 
@@ -39,7 +42,6 @@ print(scat_ids)
 
 --- Iterate through the contact_info_df and convert each row to a dictionary 
 --- The code iterates through rows and indexes as the data has both in each row
-import json 
 
 --- Trim column names to remove leading and trailing spaces
 contact_info_df.columns = contact_info_df.columns.str.strip()
@@ -51,13 +53,15 @@ column_names = []
 ---  Iterate through the DataFrame.
 for i, row in contact_info_df.iterrows():
     data = row.iloc[0]
-    # Convert each row to a Python dictionary.
+    --- Convert each row to a Python dictionary.
+    
     converted_data = json.loads(data)
-    # Use a list comprehension to get the keys from the converted data.
+    
+    --- Use a list comprehension to get the keys from the converted data.
     columns = [k for k,v in converted_data.items()]
-    # Use a list comprehension to get the values for each row.
+   --- Use a list comprehension to get the values for each row.
     row_values = [v for k, v in converted_data.items()]
-    # Append the keys and list values to the lists created in step 1.  
+    --- Append the keys and list values to the lists created in step 1.  
     column_names.append(columns)
     dict_values.append(row_values)
 
@@ -71,7 +75,8 @@ print(dict_values)
 contacts_next = pd.DataFrame(contacts_df)
 --- Function to extract name from contact_info using regex
 def extract_name(contact_info): #define the function
-    match = re.search(r'"name":\s*"([^"]+)"', contact_info) #set paramenters of the search: any range and any characters and whitespaces after "name" except the double quote.
+    --- set paramenters of the search: any range and any characters and whitespaces after "name" except the double quote.
+    match = re.search(r'"name":\s*"([^"]+)"', contact_info) 
     return match.group(1) if match else '' #save results of the search if the match is found
 
 --- Apply the function to the contact_info column and create a new column 'name'
