@@ -75,5 +75,5 @@ ___
 
 * "**ETL_Mini_Project_OSLinden**" file contains the main ETL code using Pandas libraries, comprehensive data manipulation, and Regex.
 * "**crowdfunding_db_schema**" is a SQL code to upload extracted and transformed data frames.
-* "**Resources**" folder includes original data files and extracted data frames from
-* "**Images_SQL_Data_Upload**" folder features screenshots showing that the schema was executed and data was successfully uploaded into the tables.
+* "**Resources**" folder includes original data files and transformed data frames.
+* "**Images_SQL_Data_Upload**" folder features screenshots showing that the schema was executed and data was successfully uploaded into each table.
