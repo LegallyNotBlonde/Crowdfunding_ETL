@@ -21,7 +21,7 @@ ___
 
 ### Code examples
 
-* Example 1 (comprehension method)
+* **Example 1** (comprehension method)
   ```python
 
     # Use a list comprehension to add "cat" to each category_id. 
@@ -33,7 +33,7 @@ ___
         print(scat_ids)
   ```
 
-* Example 2 (comprehension method) 
+* **Example 2** (comprehension method) 
    ```python
     # Initialize an empty lists to store the list values and keys
         dict_values = []
@@ -56,7 +56,7 @@ ___
       print(dict_values)
    ```
 
-* Example 3 (Regex)
+* **Example 3** (Regex)
    ```python
     # Extract the name of the contact and add it to a new column.
         contacts_next = pd.DataFrame(contacts_df)
