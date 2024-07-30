@@ -34,8 +34,10 @@ cat_ids = [f'cat{cat_id}' for cat_id in category_ids]
 --- Use a list comprehension to add "subcat" to each subcategory_id.
 scat_ids = [f'subcat{subcat_id}' for subcat_id in subcategory_ids]
 
---- Displaying results    
+--- Displaying results 
+
 print(cat_ids)
+
 print(scat_ids)
 
 * Example 2 (comprehension method)
