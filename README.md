@@ -16,6 +16,7 @@ This meticulous approach guarantees a consistent and accurate database, supporti
 ___
 
 ### Installation
+
 Used Python, Pandas library, and SQL language.
 * Installed VS Code and pgAdmin4.
 * Imported pandas, NumPy, json, and re (regex module) dependencies.
@@ -25,6 +26,7 @@ ___
 ### Code examples
 
 * Example 1 (comprehension method)
+
 --- Use a list comprehension to add "cat" to each category_id. 
 cat_ids = [f'cat{cat_id}' for cat_id in category_ids]
 --- Use a list comprehension to add "subcat" to each subcategory_id.    
@@ -34,6 +36,7 @@ print(cat_ids)
 print(scat_ids)
 
 * Example 2 (comprehension method)
+
 --- Iterate through the contact_info_df and convert each row to a dictionary 
 --- The code iterates through rows and indexes as the data has both in each row
 import json 
@@ -63,6 +66,7 @@ print(column_names[0])
 print(dict_values)
 
 * Example 3 (Regex)
+
 --- Extract the name of the contact and add it to a new column.
 contacts_next = pd.DataFrame(contacts_df)
 --- Function to extract name from contact_info using regex
