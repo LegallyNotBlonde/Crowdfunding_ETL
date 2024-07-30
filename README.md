@@ -9,10 +9,14 @@ ___
 
 ### Installation
 
-Used Python, Pandas library, and SQL languages.
-* Installed VS Code and pgAdmin4.
-* Imported pandas, NumPy, json, and re (regex module) dependencies.
+* ""Tools and Languages**:
 
+    * Used Python, Pandas library, and SQL.
+    * Installed VS Code and pgAdmin4 for development and database management.
+* **Dependencies**:
+    * Imported pandas, NumPy, json, and re (regex module) libraries.
+* **Database**:
+    * Used PostgreSQL, managed via pgAdmin4.
 ___
 
 ### Code examples
