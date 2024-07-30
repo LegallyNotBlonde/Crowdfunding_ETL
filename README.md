@@ -29,7 +29,7 @@ ___
   ```python
   
 
-    --- Use a list comprehension to add "cat" to each category_id. 
+    # Use a list comprehension to add "cat" to each category_id. 
 
         cat_ids = [f'cat{cat_id}' for cat_id in category_ids]
 
