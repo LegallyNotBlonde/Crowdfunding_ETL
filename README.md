@@ -9,7 +9,7 @@ ___
 
 ### Installation
 
-* ""Tools and Languages**:
+* **Tools and Languages**:
 
     * Used Python, Pandas library, and SQL.
     * Installed VS Code and pgAdmin4 for development and database management.
