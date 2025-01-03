@@ -3,7 +3,9 @@ ___
 
 ### Overview
 
-The project involves building an ETL pipeline to extract and transform crowdfunding data and then load it into a PostgreSQL database. This process extensively uses Python and Pandas for data transformation and includes handling foreign key constraints to ensure data integrity during data loading.
+* This project demonstrates the development of an ETL (Extract, Transform, Load) pipeline to process crowdfunding data. 
+* The pipeline extracts raw data, performs transformations using Python and Pandas, and loads the cleaned data into a PostgreSQL database. 
+* To ensure data integrity, the project incorporates foreign key constraints during data loading.
 
 ___
 
@@ -11,12 +13,12 @@ ___
 
 * **Tools and Languages**:
 
-    * Used Python, Pandas library, and SQL.
-    * Installed VS Code and pgAdmin4 for development and database management.
+    * Python (including Pandas and NumPy libraries).
+    * PostgreSQL, managed via pgAdmin4.
+    * VS Code for development.
 * **Dependencies**:
-    * Imported pandas, NumPy, json, and re (regex module) libraries.
-* **Database**:
-    * Used PostgreSQL, managed via pgAdmin4.
+    * Imported pandas, NumPy, json, and re (regex module).
+
 ___
 
 ### Code examples
@@ -73,7 +75,11 @@ ___
 ___
 ### Roadmap
 
-* The **[ETL_Mini_Project_OSLinden](https://github.com/LegallyNotBlonde/Crowdfunding_ETL/blob/main/ETL_Mini_Project_OSLinden.ipynb)** file contains the main ETL code using Pandas libraries, comprehensive data manipulation, and Regex.
-* The **[crowdfunding_db_schema](https://github.com/LegallyNotBlonde/Crowdfunding_ETL/blob/main/crowdfunding_db_schema.sql)** is a SQL code to upload extracted and transformed data frames.
-* The **[Resources](https://github.com/LegallyNotBlonde/Crowdfunding_ETL/tree/main/Resources)** folder includes original data files and transformed data frames.
-* The **[Images_SQL_Data_Upload](https://github.com/LegallyNotBlonde/Crowdfunding_ETL/tree/main/Images_SQL_Data_Upload)** folder features screenshots showing that the schema was executed and data was successfully uploaded into each table.
+* **[ETL_Project:](https://github.com/LegallyNotBlonde/Crowdfunding_ETL/blob/main/ETL_Project.ipynb)** Contains the main ETL pipeline code, showcasing data transformation with Pandas and Regex techniques.
+* **[crowdfunding_db_schema:](https://github.com/LegallyNotBlonde/Crowdfunding_ETL/blob/main/crowdfunding_db_schema.sql)** SQL script to create the database schema and load transformed data.
+* **[Resources:](https://github.com/LegallyNotBlonde/Crowdfunding_ETL/tree/main/Resources)** Includes raw data files and transformed datasets.
+* **[Images_SQL_Data_Upload:](https://github.com/LegallyNotBlonde/Crowdfunding_ETL/tree/main/Images_SQL_Data_Upload)** Features screenshots verifying successful data upload into PostgreSQL tables.
+
+___
+### Resources
+* The data used in this analysis is fictional and was created solely for the purpose of showcasing data analytics and ETL skills.
